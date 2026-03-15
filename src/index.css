@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  @media print {
+    body {
+      background-color: white !important;
+      -webkit-print-color-adjust: exact;
+    }
+    @page {
+      margin: 0;
+      size: auto;
+    }
+  }
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}

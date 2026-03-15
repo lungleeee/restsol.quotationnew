@@ -1,0 +1,5 @@
+{
+  "name": "芮斯特報價系統",
+  "description": "芮斯特有限公司專用的報價單生成系統，支援多客戶批發價自動計算與專業報價單輸出。",
+  "requestFramePermissions": []
+}
